@@ -5,5 +5,14 @@ spring:
     password:
     driver-class-name: org.h2.Driver
 
+management:
+  endpoint:
+    env:
+      show-values: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include: env, prometheus, health, info, metric
+
 application:
   max-allowed-books: 2

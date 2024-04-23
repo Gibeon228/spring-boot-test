@@ -95,5 +95,5 @@ class ReaderControllerTest extends JUnitSpringBootBase {
 
     }
 
-    
+
 }
